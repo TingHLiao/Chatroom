@@ -1,7 +1,5 @@
-# Software Studio 2020 Spring Midterm Project
-
 ## Topic
-* Project Name : Midterm_Project_Chatroom
+Chatroom
 * Key functions
     1. Sign Up(with email)
     2. Sign In
@@ -17,55 +15,43 @@
     7. Create Group
     8. Send Heart Icon
 
-## Basic Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Membership Mechanism|15%|N|
-|Firebase Page|5%|N|
-|Database|15%|N|
-|RWD|15%|N|
-|Topic Key Function|20%|N|
-
-## Advanced Components
-|Component|Score|Y/N|
-|:-:|:-:|:-:|
-|Third-Party Sign In|2.5%|N|
-|Chrome Notification|5%|N|
-|Use CSS Animation|2.5%|N|
-|Security Report|5%|N|
-
 ## Website Detail Description
 ### How to use
 #### Login
 &emsp;&ensp;如果還沒登入聊天室，一點開網頁會先導入登入頁面，輸入註冊的帳號密碼就可以進入自己的聊天室畫面。
 
-![](https://i.imgur.com/O1nRyER.png =60%x)
+<img src="https://i.imgur.com/O1nRyER.png" width="360">
+<!-- ![](https://i.imgur.com/O1nRyER.png =60%x) -->
 
 
 #### Register
 &emsp;&ensp;如果還沒有帳號，可以從登入頁面點選 ++Create One++ 連結，會導到創建帳號頁面，輸入`Name`, `E-Mail`, `Password`，並且同意勾選`be a nice friend in this ChatRoom`之後，就可以創建一個屬於你的帳號～
 &emsp;&ensp;或是點++Login with Google++也可以選擇使用google帳號，再從popup視窗中做註冊以及登入。
 
-![](https://i.imgur.com/e3iNI3c.png =60%x)
+<img src="https://i.imgur.com/e3iNI3c.png" width="360">
+<!-- ![](https://i.imgur.com/e3iNI3c.png =60x) -->
 
 
 #### Forget Password
 &emsp;&ensp;如果非常不幸的忘記密碼，可以在登入畫面按下 ++Forget Password++ 連結，就會跳轉到以下頁面，只要輸入當初註冊的email帳號，按下`Reset Password`，將傳送重設密碼的信件，重新設置完成後，就能再次以新密碼登入了。
 
-![](https://i.imgur.com/o92QD2C.png =70%x)
+<img src="https://i.imgur.com/o92QD2C.png" width="360">
+<!-- ![](https://i.imgur.com/o92QD2C.png =70%x) -->
 
 
 ### Main Page
 登入你的聊天室後，主要分成3個功能區塊:
 - Friends and Groups
 &emsp;&ensp;列出所有好友以及參加的群組，點選右邊的聊天符號就可以連結到和好友的聊天室或是群組。
-![](https://i.imgur.com/GSQbwSV.png =70%x)
+<img src="https://i.imgur.com/GSQbwSV.png" width="360">
+<!-- ![](https://i.imgur.com/GSQbwSV.png =70%x) -->
 
 - Chatting
 &emsp;&ensp;頁面右邊為即時聊天區塊，可以輸入訊息以及看到對方傳送過來的文字，在輸入訊息後，可以透過按下`Enter`或是右方的傳送符號來發送。
 &emsp;&ensp;你傳送的訊息, 時間, 頭像會顯示在右方，如果是別人傳送過來的訊息會顯示在左方，且訊息匡分別為藍色和灰色。
 &emsp;&ensp;頁面左邊則是目前正在進行的聊天室，點選後聊天區塊就會跳轉到那個聊天室。
-![](https://i.imgur.com/XujheN5.png =70%x)
+<img src="https://i.imgur.com/XujheN5.png" width="360">
+<!-- ![](https://i.imgur.com/XujheN5.png =70%x) -->
 
 - Find new friends and join group
 &emsp;&ensp;在搜尋匡中輸入想要查詢的好友或是群組名稱，按下`Enter`後就會在Result下方顯示所有相關資訊，再按下`Add`或是`Join`之後，就可以添加好友或是加入群組:
@@ -77,7 +63,8 @@
     :::success 
       Success! Join Success!
     :::
-  ![](https://i.imgur.com/IzR7FTd.png =75%x)
+  <img src="https://i.imgur.com/IzR7FTd.png" width="360">
+<!--   ![](https://i.imgur.com/IzR7FTd.png =75%x) -->
 
 
 ### Account Managing
@@ -102,7 +89,8 @@
  - Chrome notification
 &emsp;&ensp;為了讓你隨時在線！只要目前開啟聊天室的網站，且有人傳送訊息給你或是傳到你所參加的群組，在螢幕上便會跳出通知，顯示大標為聊天室名稱，並有傳送訊息者的名字, 頭像和內容。
 &emsp;&ensp;而且只要點開通知就可以直接連結到那個聊天室，且避免一次很多人聊天造成太多通知，以創建聊天室時所設的不同ID來作為tag，因此如果很多人在聊天室說話，只會顯示最新的訊息，並在3秒後通知自動關閉。
-![](https://i.imgur.com/fSo2UAn.png)
+<img src="https://i.imgur.com/fSo2UAn.png">
+<!-- ![](https://i.imgur.com/fSo2UAn.png) -->
 
 
  - Add friend & Snackbar alert
@@ -116,7 +104,7 @@
 
 
 
-# 作品網址：
+# Website URL：
 https://finalchatroom-c9a25.web.app
 
 # Components Description : 
